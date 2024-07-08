@@ -1,0 +1,58 @@
+const userData = [
+    {   
+        id:1,
+        image:"https://static.highongrowth.xyz/enterprise/enterpriseId/ad662db14acc46d5a6cb1dc0fb0cb93e.png",
+        head:"Exploring Scroll",
+        subHead:"Scroll seamlessly extends Ethereum’s capabilities through zero knowledge tech and EVM compatibility.",
+        para:"390 XPs",
+        icon:<i class="fa-solid fa-location-arrow"></i>,
+        dollerImg:"https://www.intract.io/assets/xp-icon-aacd204a.svg",
+    },
+    {   
+        id:2,
+        image:"https://intract-dashboard-files.s3.amazonaws.com/enterprise/641d73fb135bf4a73d7c1c83/34bfdb0c7bb84b20a3f6432a828016a3.png",
+        head:"Exploring BASE",
+        subHead:"Base is a secure, low-cost, builder-friendly Ethereum L2 built to bring the next billion users onchain.",
+        para:"170 XPs",
+        icon:<i class="fa-solid fa-location-arrow"></i>,
+        dollerImg:"https://www.intract.io/assets/xp-icon-aacd204a.svg",
+    },
+    {   
+        id:3,
+        image:"https://static.highongrowth.xyz/enterprise/enterpriseId/ff9898828d0f4b23b292521d702f23a6.jpg",
+        head:"Exploring SocialFi Drops",
+        subHead:"SExplore SocialFi drops. SocialFi drops fuse finance with social media, empowering creators.",
+        para:"380 XPs",
+        icon:<i class="fa-solid fa-location-arrow"></i>,
+        dollerImg:"https://www.intract.io/assets/xp-icon-aacd204a.svg",
+    },
+    {   
+        id:4,
+        image:"https://static.highongrowth.xyz/enterprise/enterpriseId/ffa3e75f9a7a486e9214a5d3de6b1c44.png",
+        head:"Get onboarded on Bitcoin",
+        subHead:"Bitcoin: the first decentralized digital currency, enabling direct transactions on a peer-to-peer n.",
+        para:"390 XPs",
+        icon:<i class="fa-solid fa-location-arrow"></i>,
+        dollerImg:"https://www.intract.io/assets/xp-icon-aacd204a.svg",
+    },
+    {   
+        id:5,
+        image:"https://storage.googleapis.com/intract-test-storage/enterprise/undefined/daf0c5dac69547eda904c4b0744a6df2.png",
+        head:"Trending",
+        subHead:"Explore the Latest Trends: Discover Projects on the Verge of Mainnet Launch or with Exciting Airdro.",
+        para:"280 XPs",
+        icon:<i class="fa-solid fa-location-arrow"></i>,
+        dollerImg:"https://www.intract.io/assets/xp-icon-aacd204a.svg",
+    },
+    {   
+        id:6,
+        image:"https://static.highongrowth.xyz/enterprise/enterpriseId/fed46d7bf36741edb0bcb4f101266bb1.png",
+        head:"Exploring Solana",
+        subHead:"Solana: A blazing-fast blockchain with speeds up to 65,000 transactions per second, surpassing Bitc.",
+        para:"480 XPs",
+        icon:<i class="fa-solid fa-location-arrow"></i>,
+        dollerImg:"https://www.intract.io/assets/xp-icon-aacd204a.svg",
+    },
+]
+
+export default userData;
