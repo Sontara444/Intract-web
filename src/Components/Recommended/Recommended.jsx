@@ -11,7 +11,7 @@ function Recommended() {
             <p>
               See all{" "}
               <span>
-                <i class="fa-solid fa-play"></i>
+                <i className="fa-solid fa-play"></i>
               </span>
             </p>
           </div>
@@ -19,11 +19,9 @@ function Recommended() {
             {userData.map((item, index) => {
               return (
                 <div className="recommended-cards" key={index}>
-                  {/* <div className="recommended-cards-left"> */}
                     <div className="recommended-cards-image">
                       <img src={item.image} alt="" />
                     </div>
-                  {/* </div> */}
                   <div className="recommended-cards-right">
                     <div className="recommended-cards-top">
                       <h2>{item.head}</h2>

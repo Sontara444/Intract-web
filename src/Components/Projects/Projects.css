@@ -95,6 +95,27 @@ figure.snip1205.hover i {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 10px;
 }
+.projects-imgage-content{
+  position: relative;
+}
+.projects-upper-content{
+  position: absolute;
+  bottom: 4%;
+  left: 10%;
+}
+.projects-upper-content h2{
+  font-size: 22px;
+}
+
+.projects-upper-content::before{
+  content: "";
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.13), rgba(211, 211, 211, 0.214) 50%, rgba(169, 169, 169, 0.115) 100%);
+  position: absolute;
+  width: 100%;
+  padding: 30px;
+}
+
+
 
 
 
@@ -174,7 +195,7 @@ figure.snip1205.hover i {
     grid-template-columns: 1fr;
     
   }
-  /* .snip1205 img{
-    mzwidth: 100%;
-  } */
+  .snip1205 img{
+    max-width: 100%;
+  }
 } 

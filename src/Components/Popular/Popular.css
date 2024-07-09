@@ -7,7 +7,6 @@
     font-size: 24px;
     font-weight: 400;
     line-height: 20px;
-    /* letter-spacing: 0.110px; */
   }
   .popular-container-top{
     display: flex;
@@ -152,7 +151,7 @@
     text-overflow: ellipsis;
 }
 .popular-small-items{
-  border: 1px solid rgba(128, 128, 128, 0.568);
+  border: 1px solid rgba(128, 128, 128, 0.232);
   border-radius: 10px;
   padding: 16px;
   background: rgba(255, 255, 255, .07);
@@ -248,19 +247,27 @@
   margin: 30px auto 0;
   cursor: pointer;
 }
+.multiple-images img{
+  max-width: 40px;
+  max-height: 40px;
+  border-radius: 50%;
+  border: 1.2px solid #fff;
+}
+.explore-images{
+  display: inline-flex;
+  justify-content: center;
+  gap: 20px;
+  
+}
+.multiple-images{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0px;
+}
 
 
 /* ****************media*************** */
-@media(max-width:1280px){
-  .popular{
-    margin: 1rem auto;
-    max-width: 1100px;
-    overflow: hidden;
-  }
-  .popular-header{
-    margin-bottom:2rem;
-  }
-}
 
 @media(max-width:1024px){
   .popular{
@@ -268,4 +275,21 @@
     max-width: 900px;
     overflow: hidden;
   }
+  .popular-small-container{
+    grid-template-columns: 1fr 1fr 1fr;
+    overflow: hidden;
+  }
+  
+  .popular-small-items-image img{
+    object-fit: cover;
+    z-index: 2;
+    border-radius: 4px;
+    width: 100%;
+    background: url("https://www.intract.io/assets/grid-trending-779d3c45.png");
+    padding: 10px;
+  }
+
+ 
 }
+
+
